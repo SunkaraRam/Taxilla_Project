@@ -9,7 +9,7 @@ public class Noukri {
 	
 public static void main(String[] args) throws Throwable {
 		
-		System.setProperty("webdriver.chrome.driver", "D:\\LatestDrivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "..\\Taxilla_Project\\drivers\\chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
 		
