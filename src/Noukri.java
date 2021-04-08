@@ -12,14 +12,14 @@ public static void main(String[] args) throws Throwable {
 		System.setProperty("webdriver.chrome.driver", "..\\Taxilla_Project\\drivers\\chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
-		
-		driver.manage().window().maximize();
-		
-		driver.manage().deleteAllCookies();
-		
-		driver.get("https://www.naukri.com/");
-		
-		Thread.sleep(3000);
+//		
+//		driver.manage().window().maximize();
+//		
+//		driver.manage().deleteAllCookies();
+//		
+//		driver.get("https://www.naukri.com/");
+//		
+//		Thread.sleep(3000);
 		
 		driver.findElement(By.xpath("//body/div[@id='root']/div[1]/div[1]/ul[1]/li[5]/a[1]/div[1]")).click();;
 		
